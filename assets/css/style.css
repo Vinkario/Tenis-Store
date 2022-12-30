@@ -406,3 +406,33 @@
     bottom: 60px;
     left: 87px;
 }
+
+.footer{
+    display: flex;
+    padding: 50px 120px;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.footer .logo a{
+    color: #fff;
+}
+
+.nav-footer ul{
+    list-style: none;
+    line-height: 1.6;
+
+}
+
+.nav-footer li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.nav-footer li a:hover{
+    color: var(--var-red);
+}
+.nav-footer h3{
+    color: #fff;
+    font-size: 22px;
+}
