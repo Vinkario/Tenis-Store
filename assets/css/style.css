@@ -315,3 +315,36 @@
     color: var(--var-red);
     transition: all 300ms ease-in-out;
 }
+.section-five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-five-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.section-five-title h2{
+    font-size: 50px;
+}
+
+.section-five-title h3{
+    font-size: 20px;
+}
+.images-section-five{
+    display: flex;
+    gap: 23px;
+    margin-top: 37px;
+}
+
+.images-small{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
